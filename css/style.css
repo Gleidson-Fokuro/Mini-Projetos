@@ -1,0 +1,194 @@
+@import '~mdb-ui-kit/css/mdb.min.css';
+
+@font-face {
+  font-family: FrancoisOne;
+  src: url(../fonts/FrancoisOne-Regular.ttf);
+}
+
+
+#slide {
+  background: linear-gradient(65deg, #800080, #ff75ff, #cdb8cd, #EE82EE, #8A2BE2, #7B68EE);
+  background-size: 450% 200%;
+  animation: colors 4s ease infinite alternate-reverse;
+}
+
+#livros{
+  background-color: rgba(245, 235, 248, 0.869);
+  text-align: left;
+  font-size: medium;
+  height: 14rem;
+}
+
+#corpo {
+  background-color: #cdb8cd;
+}
+
+p {
+  line-height: 10%;
+}
+
+s {
+  font-size: 20px;
+}
+
+a {
+  font-size: 12px;
+  line-height: 10px;
+  position: right;
+}
+
+#topo {
+  background-color: rgb(91, 0, 93);
+}
+
+h1#valor {
+  color: rgb(0, 164, 0);
+  font-size: larger;
+  line-height: 35px;
+  font-weight: bold;
+}
+
+h7 {
+  font-weight: bold
+}
+
+p#desconto {
+  text-align: right;
+  font-weight: bold;
+}
+
+p#estrelas {
+  color: rgb(255, 191, 0);
+}
+p bdi {
+  color: rgba(0, 0, 0, 0.186);
+}
+
+h2 {
+  font-family: FrancoisOne;
+  font-size: 35px;
+  color: rgb(42, 2, 69);
+  text-shadow: 1px 1px 2px rgba(116, 1, 118, 0.648);
+}
+
+#comprar {
+  background: rgb(247, 80, 2);
+  font-size: medium;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-shadow: 1px 1px 1px beige;
+}
+
+img.face{
+  float: left;
+  border: transparent thin solid;
+  padding: 5px;
+  margin: 0px 10px 10px 0;
+  max-width: 186px;
+}
+
+#quemSomos {
+  max-width: 900px; 
+  border: none; 
+  background-color: rgba(182, 157, 190, 0);
+}
+
+#sobre {
+  background-color: rgba(182, 157, 190, 0.869);
+}
+
+
+#descricao p {
+   display:block;
+  line-height: 26px;
+  text-align: justify;
+  text-indent: 40px;
+  font-size: 20px;
+  font-family: FrancoisOne;
+}
+
+#logo {
+  margin: 0;
+  position: relative;              
+  top: 50%; 
+  left: 26%;
+  width: 200px;                       
+  transform: translate(0, -50%);
+
+}
+
+nav#nextPage {
+  margin-left: auto;    
+  margin-right: auto;
+}
+
+#photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: auto;    
+  margin-right: auto;
+}
+
+#contato {
+  margin-left: auto;    
+  margin-right: auto;
+}
+
+#contato svg {
+  margin: 10px;
+  color: aqua;
+}
+
+#contato2 {
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+#time{
+  border: none;
+  background-color: transparent;
+}
+
+#sessaoTime {
+  background-color: rgba(134, 107, 143, 0.869);
+}
+
+#rodaPe {
+  background-color: rgba(0, 0, 0, 0.579);
+}
+
+
+
+
+
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  
+  70% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
